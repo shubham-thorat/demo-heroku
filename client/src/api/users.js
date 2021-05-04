@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const url = 'http://localhost:5500/users'
+// const url = 'http://localhost:5500/users'
+const url = 'https://shubham-heroku-demo.herokuapp.com/users'
 export const sendData = (user) => {
     axios.post(url, user)
         .then(res => {
